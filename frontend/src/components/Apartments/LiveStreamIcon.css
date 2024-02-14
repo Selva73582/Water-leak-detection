@@ -1,0 +1,28 @@
+.live-stream-icon-container {
+    background: linear-gradient(135deg, #F9DC5C, #F39642);
+    padding: 16px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .live-icon {
+    color: gray; /* Default color */
+  }
+  
+  .live {
+    animation: pulse 1s infinite alternate; /* Animation for live stream */
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
